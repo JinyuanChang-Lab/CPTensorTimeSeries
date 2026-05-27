@@ -33,15 +33,17 @@ This folder contains the simulation code for the numerical experiments in the ma
 | `simulation_baseline.R` | `Pro.iter_estimated_h1_hist.pdf` | Figure 2 in the main paper. |
 | `simulation_baseline.R` | `Pro.iter_estimated_h2_hist.pdf` | Figure 3 in the main paper. |
 | `simulation_runtime_benchmark.R` | `runtime_benchmark.pdf` | Figure 4 in the main paper. |
-| `simulation_variance_estimation.R` | `rmse_iter_variance.csv` | Table T6 in the supplementary material. |
+| `simulation_variance_estimation.R` | `rmse_iter_variance.csv` | Table T1 in the supplementary material. |
 | `simulation_baseline.R` | `table_common_component_error.csv` | Table T7 in the supplementary material. |
 | `simulation_rank_misspecification_table.R` | `table_rank_estimation_stage.csv` | Table T8 in the supplementary material. |
 | `simulation_ar_error.R` | `table_rho_Ahat_A_ARerror.csv` | Table T9 in the supplementary material. |
 | `simulation_heavy_tail_error.R` | `table_rho_Ahat_A_heavytailed.csv` | Table T10 in the supplementary material. |
-| `simulation_runtime_benchmark.R` | `ram_benchmark.pdf` | Figure F1 in the supplementary material. |
-| `simulation_k_robustness.R` | `Krobust_accuracy.pdf` | Figure F2 in the supplementary material. |
-| `simulation_k_robustness.R` | `Krobust_error.pdf` | Figure F3 in the supplementary material. |
-| `simulation_rank_misspecification_figure.R` | `rtilde_selected_methods.pdf` | Figure F11 in the supplementary material. |
+| `simulation_baseline.R` | `Pro.iter_longrun_h1_hist.pdf` | Figure F1 in the supplementary material. |
+| `simulation_baseline.R` | `Pro.iter_longrun_h2_hist.pdf` | Figure F2 in the supplementary material. |
+| `simulation_runtime_benchmark.R` | `ram_benchmark.pdf` | Figure F3 in the supplementary material. |
+| `simulation_k_robustness.R` | `Krobust_accuracy.pdf` | Figure F4 in the supplementary material. |
+| `simulation_k_robustness.R` | `Krobust_error.pdf` | Figure F5 in the supplementary material. |
+| `simulation_rank_misspecification_figure.R` | `rtilde_selected_methods.pdf` | Figure F13 in the supplementary material. |
 
 ---
 
@@ -68,16 +70,16 @@ The `Application_AirPollution/` folder contains the code and data resources for 
 | `application_airpollution.R` | `beijing_map_a1.pdf`, `beijing_map_a2.pdf` | Figure 5 in the main paper. |
 | `application_airpollution.R` | `mode3_a1_Pro.iter.pdf`, `mode3_a2_Pro.iter.pdf` | Figure 6 in the main paper. |
 | `application_airpollution.R` | `timeseries_factor1.pdf`, `timeseries_factor2.pdf` | Figure 7 in the main paper. |
-| `application_airpollution.R` | `table_loading_a2_all.csv` | Table T1 in the supplementary material. |
-| `application_airpollution.R` | `table_loading_a1_all.csv` | Table T2 in the supplementary material. |
-| `application_airpollution.R` | `table_moment_test.csv` | Table T3 in the supplementary material. |
-| `application_airpollution.R` | `table_loading_a2_robust.csv` | Table T4 in the supplementary material. |
-| `application_airpollution.R` | `Y_time_series_airpollution.pdf` | Figure F4 in the supplementary material. |
-| `application_airpollution.R` | `mode3_a1_compare.pdf`, `mode3_a2_compare.pdf` | Figure F5 in the supplementary material. |
-| `application_airpollution.R` | `factor1_timeseries_compare.pdf`, `factor2_timeseries_compare.pdf` | Figure F6 in the supplementary material. |
-| `application_airpollution.R` | `beijing_map_a1_robust.pdf`, `beijing_map_a2_robust.pdf` | Figure F7 in the supplementary material. |
-| `application_airpollution.R` | `mode3_a1_robust.pdf`, `mode3_a2_robust.pdf` | Figure F8 in the supplementary material. |
-| `application_airpollution.R` | `timeseries_factor1_robust.pdf`, `timeseries_factor2_robust.pdf` | Figure F9 in the supplementary material. |
+| `application_airpollution.R` | `table_loading_a2_all.csv` | Table T2 in the supplementary material. |
+| `application_airpollution.R` | `table_loading_a1_all.csv` | Table T3 in the supplementary material. |
+| `application_airpollution.R` | `table_moment_test.csv` | Table T4 in the supplementary material. |
+| `application_airpollution.R` | `table_loading_a2_robust.csv` | Table T5 in the supplementary material. |
+| `application_airpollution.R` | `Y_time_series_airpollution.pdf` | Figure F6 in the supplementary material. |
+| `application_airpollution.R` | `mode3_a1_compare.pdf`, `mode3_a2_compare.pdf` | Figure F7 in the supplementary material. |
+| `application_airpollution.R` | `factor1_timeseries_compare.pdf`, `factor2_timeseries_compare.pdf` | Figure F8 in the supplementary material. |
+| `application_airpollution.R` | `beijing_map_a1_robust.pdf`, `beijing_map_a2_robust.pdf` | Figure F9 in the supplementary material. |
+| `application_airpollution.R` | `mode3_a1_robust.pdf`, `mode3_a2_robust.pdf` | Figure F10 in the supplementary material. |
+| `application_airpollution.R` | `timeseries_factor1_robust.pdf`, `timeseries_factor2_robust.pdf` | Figure F11 in the supplementary material. |
 
 ---
 
@@ -100,8 +102,8 @@ The `Application_FamaFrenchReturn/` folder contains the code and data resources 
 
 | Script | Output file(s) | Reproduces |
 |---|---|---|
-| `application_famafrenchreturn.R` | `rolling_final_display_table.csv` | Table T5 in the supplementary material. |
-| `application_famafrenchreturn.R` | `Y_time_series_100.pdf` | Figure F10 in the supplementary material. |
+| `application_famafrenchreturn.R` | `rolling_final_display_table.csv` | Table T6 in the supplementary material. |
+| `application_famafrenchreturn.R` | `Y_time_series_100.pdf` | Figure F12 in the supplementary material. |
 
 ---
 
